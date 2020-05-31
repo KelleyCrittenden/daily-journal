@@ -1,5 +1,49 @@
+html {
+    border: 5px solid #bcd4de;
+}
+
+
+h1 {
+    color: #4c5C68;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 75px;
+}
+
+
+.entry-form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
 .date {
+    background-color: #a0b9bf;
     display: flex;
     flex-direction: column;
- 
+}
+
+.concepts {
+    background-color: #a0b9bf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.entry {
+    background-color: #a0b9bf;
+    display: flex;
+    flex-direction: column;
+}
+
+.mood {
+    background-color: #a0b9bf;
+    display: flex;
+    flex-direction: column;
+}
+
+.submitButton {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
