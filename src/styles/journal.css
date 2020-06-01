@@ -1,7 +1,7 @@
 html {
-    border: 5px solid #bcd4de;
+    background-color: #bcd4de;
+    border: 5px solid #9dacb2;
 }
-
 
 h1 {
     color: #4c5C68;
@@ -10,10 +10,10 @@ h1 {
     font-size: 75px;
 }
 
-
 .entry-form {
     text-align: center;
     display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
     justify-content: center;
 }
 
@@ -21,19 +21,21 @@ h1 {
     background-color: #a0b9bf;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 .concepts {
     background-color: #a0b9bf;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .entry {
     background-color: #a0b9bf;
     display: flex;
     flex-direction: column;
+    
 }
 
 .mood {
@@ -44,6 +46,8 @@ h1 {
 
 .submitButton {
     display: flex;
+    font-family: 'Open Sans Condensed', sans-serif;
     justify-content: center;
     padding: 30px;
 }
+ 
