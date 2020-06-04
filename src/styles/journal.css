@@ -1,17 +1,12 @@
 
-
 .row {
     display: flex;
 }
   
-  .column {
+.column {
     flex: 50%;
-=======
-html {
-    background-color: #bcd4de;
-    border: 5px solid #9dacb2;
-
 }
+
 
 h1 {
     color: #4c5C68;
@@ -25,8 +20,6 @@ h1 {
     flex-direction: row;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    justify-content: center;
-
 }
 
 .date {
@@ -38,12 +31,7 @@ h1 {
     width: 50%;
     background-color: #a0b9bf;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-
 }
-
 
 .concepts {
     padding:20px;
@@ -54,12 +42,7 @@ h1 {
     width:50%;
     background-color: #a0b9bf;
     margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    
-
 }
-
 
 .entry {
     padding:20px;
@@ -70,10 +53,7 @@ h1 {
     width:50%;
     background-color: #a0b9bf;
     margin-top: 10px;
-     display: flex;
-    flex-direction: column;
 }
-
 
 .mood {
     padding:20px;
@@ -91,4 +71,4 @@ h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     justify-content: center;
     padding: 30px;
-    }
+}
