@@ -8,9 +8,59 @@
     <link rel="stylesheet" type="text/css" href="styles/journal.css">
     <script src="scripts/journal.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <img src= "./images/geometricBackgroundImage.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+
+    <style>
+        <img src= "./images/geometricBackgroundImage.png">
+    </style>
+    <main class ="container"
+        <div class="main-title">
+            <h1>it's a beautiful day</h1>
+        </div>
+        <div class="entry-form">
+
+            <form action="">
+                <div class="row">
+                    <div class="column">
+                        <fieldset class="date">
+                            <label for="journalDate">Date of Entry</label>
+                            <input type="date" name="journalDate" id="journalDate">
+                        </fieldset>
+
+                        <fieldset class="concepts">
+                            <label for="concetpsCovered">Concepts Covered</label>
+                            <input type="text" name="conceptsCovered" id="conceptsCovered">
+                        </fieldset>
+
+                        <fieldset class="mood">        
+                            <label for="moodForTheDay">Mood for the Day</label>
+                            <select name="Mood for the Day" id="moodForTheDay"> 
+                                    <option value="productive">Productive</option> 
+                                    <option value="excited">Excited</option> 
+                                    <option value="confident">Confident</option> 
+                                    <option value="overwhelmed">Overwhelmed</option>
+                                    <option value="confused">Confused</option> 
+                                    <option value="inadequate">Challenged</option>
+                            </select>    
+                        </fieldset> 
+                    </div>
+
+
+
+                    <div class="column">
+                        <fieldset class="entry">
+                            <label for="journalEntry">Journal Entry</label>
+                            <textarea rows="12" cols="20" placeholder="How did today go?"></textarea>
+                        </fieldset>
+                    </div> 
+                </div>     
+            </form>
+
     <div class="main-title">
         <h1>it's a beautiful day</h1>
     </div>
@@ -41,6 +91,7 @@
                 </select>    
             </fieldset>          
         </form>
+
     </div>
 
     <div class="submitButton">

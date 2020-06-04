@@ -1,6 +1,16 @@
+
+
+.row {
+    display: flex;
+}
+  
+  .column {
+    flex: 50%;
+=======
 html {
     background-color: #bcd4de;
     border: 5px solid #9dacb2;
+
 }
 
 h1 {
@@ -11,37 +21,69 @@ h1 {
 }
 
 .entry-form {
-    text-align: center;
     display: flex;
+    flex-direction: row;
+    text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     justify-content: center;
+
 }
 
 .date {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width: 50%;
     background-color: #a0b9bf;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-content: center;
+
 }
+
 
 .concepts {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     
+
 }
+
 
 .entry {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
-    display: flex;
+    margin-top: 10px;
+     display: flex;
     flex-direction: column;
-    
 }
 
+
 .mood {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
 .submitButton {
@@ -49,5 +91,4 @@ h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     justify-content: center;
     padding: 30px;
-}
- 
+    }
