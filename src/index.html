@@ -6,12 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daily Journal</title>
     <link rel="stylesheet" type="text/css" href="styles/journal.css">
+    <script src="scripts/journal.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <img src= "./images/geometricBackgroundImage.png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+
     <style>
         <img src= "./images/geometricBackgroundImage.png">
     </style>
@@ -57,10 +60,42 @@
                     </div> 
                 </div>     
             </form>
+
+    <div class="main-title">
+        <h1>it's a beautiful day</h1>
+    </div>
+    <div class="entry-form">
+        <form action=""> 
+            <fieldset class="date">
+                <label for="journalDate">DATE OF ENTRY</label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset class="concepts">
+                <label for="concetpsCovered">CONCEPTS COVERED</label>
+                <input type="text" name="conceptsCovered" id="conceptsCovered">
+            </fieldset>
+            <fieldset class="entry">
+                <label for="journalEntry">THOUGHTS FOR THE DAY</label>
+                <textarea rows="" cols="20" placeholder="How did today go?"></textarea>
+            </fieldset>    
+
+            <fieldset class="mood">        
+                <label for="moodForTheDay">MOOD</label>
+                <select name="Mood for the Day" id="moodForTheDay"> 
+                        <option value="productive">Productive</option> 
+                        <option value="excited">Excited</option> 
+                        <option value="confident">Confident</option> 
+                        <option value="overwhelmed">Overwhelmed</option>
+                        <option value="confused">Confused</option> 
+                        <option value="inadequate">Challenged</option>
+                </select>    
+            </fieldset>          
+        </form>
+
     </div>
 
     <div class="submitButton">
-        <input type="submit" value="Record Journal Entry"> 
+        <input type="submit" value="RECORD JOURNAL ENTRY"> 
     </div>
     
 </body>
