@@ -1,5 +1,10 @@
-html {
-    border: 5px solid #bcd4de;
+
+.row {
+    display: flex;
+}
+  
+  .column {
+    flex: 50%;
 }
 
 
@@ -10,36 +15,58 @@ h1 {
     font-size: 75px;
 }
 
-
 .entry-form {
-    text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+
 }
 
 .date {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width: 50%;
     background-color: #a0b9bf;
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
 }
+
 
 .concepts {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 10px;
 }
+
 
 .entry {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
+
 .mood {
+    padding:20px;
+    display:inline-block;
+    display:inline;
+    zoom:1.0;
+    vertical-align:middle;
+    width:50%;
     background-color: #a0b9bf;
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
 }
 
 .submitButton {
