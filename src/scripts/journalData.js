@@ -1,7 +1,7 @@
 let journalEntries = [] 
 
 const getJournalEntries = () => {
-    return fetch("http://localhost:3000/entries").then (
+    return fetch("http://localhost:8088/entries").then (
         (httpResponse) => {
             return httpResponse.json()
 
