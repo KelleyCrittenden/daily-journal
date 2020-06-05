@@ -15,7 +15,7 @@ h1 {
 }
 
 .entry-form {
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -46,12 +46,14 @@ h1 {
 .entry {
     padding:20px;
     display:inline-block;
-    display:inline;
+    display:flex;
     zoom:1.0;
     vertical-align:middle;
     width:50%;
     background-color: #a0b9bf;
     margin-top: 10px;
+    height: 85%,
+   
 }
 
 .mood {
