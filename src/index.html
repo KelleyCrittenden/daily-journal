@@ -8,13 +8,17 @@
     <link rel="stylesheet" type="text/css" href="styles/journal.css">
     <script src="scripts/journal.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <img src= "./images/geometricBackgroundImage.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
 </head>
-
+<style>
+    body {
+      background-image: url("../images/geometricBackgroundImage.png");
+    }
+    </style>
 <body>
-    <article class ="entryLog">
+
+    <article>
 
         <div class="main-title">
             <h1>it's a beautiful day</h1>
@@ -35,7 +39,7 @@
                         </fieldset>
 
                         <fieldset class="mood">        
-                            <label for="moodForTheDay">Mood for the Day</label>
+                            <label for="moodForTheDay">Mood for the Day:</label>
                             <select name="Mood for the Day" id="moodForTheDay"> 
                                     <option value="productive">Productive</option> 
                                     <option value="excited">Excited</option> 
@@ -63,13 +67,16 @@
         <div class="submitButton">
             <input type="submit" value="RECORD JOURNAL ENTRY"> 
         </div>
+
+    <ariticle class="entryLog"></ariticle>    
    
 
-
-    <script src="scripts/journalData.js"></script>
-    <script src="scripts/journalList.js"></script>
-    <script src="scripts/journal.js"></script>
+    <script src="./scripts/journalData.js"></script>
+    <script src="./scripts/journal.js"></script>    
+    <script src="./scripts/journalList.js"></script>
+    <script src="./scripts/main.js"></script>
 
 
 </body>
+
 </html>
