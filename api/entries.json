@@ -1,13 +1,12 @@
 {
-    "entries" : [
-        {    
+    "entries": [
+        {
             "id": 1,
             "date": "05/22/2020",
             "concepts": "installations",
             "mood": "Excited",
             "entry": "Make sure to always read chapter the night before class to be prepared"
         },
-
         {
             "id": 2,
             "date": "05/29/2020",
@@ -15,7 +14,6 @@
             "mood": "Productive",
             "entry": "Make sure to always comment in code, also make sure to finish MVP before CSS"
         },
-
         {
             "id": 3,
             "date": "06/05/2020",

@@ -1,3 +1,4 @@
+
 let journalEntries = [] 
 
 const getJournalEntries = () => {
@@ -13,3 +14,5 @@ const getJournalEntries = () => {
             }
         )
 }
+
+export {journalEntries, getJournalEntries};
