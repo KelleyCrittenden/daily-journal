@@ -1,13 +1,14 @@
 const makeJournalEntryComponent = (journalEntry) => {
 
-    let journalEntryHTMLRepresentation = `<section>
-        ${journalEntry.date} <br>
-        ${journalEntry.concepts} <br>
-        ${journalEntry.mood}<br>
-        ${journalEntry.entry} <br>
+    const journalEntryHTMLRepresentation = `<section>
+        Date: ${journalEntry.date} <br>
+        Concepts Covered: ${journalEntry.concepts} <br>
+        Mood: ${journalEntry.mood}<br>
+        Entry: ${journalEntry.entry} <br> <br>
     
     </section>`
 
     return journalEntryHTMLRepresentation
 }
 
+export default makeJournalEntryComponent

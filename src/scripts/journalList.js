@@ -1,3 +1,6 @@
+import makeJournalEntryComponent from "./journal.js"
+import { journalEntries } from "./journalData.js"
+
 const outputJournalEntries= () => {
 
     for (const journalObject of journalEntries) {
@@ -8,5 +11,7 @@ const outputJournalEntries= () => {
 
         journalArticleElement.innerHTML += journalHTML
    }
+   return outputJournalEntries
 }
 
+export default outputJournalEntries
